@@ -383,7 +383,7 @@ else:
                 yaxis_title=f"Dim2 ({pca.explained_variance_ratio_[1]*100:.1f}%)",
                 legend_title_text='Cluster',
                 width=800,
-                height=800
+                height=600
             )
 
             st.plotly_chart(fig, use_container_width=True)
@@ -405,4 +405,5 @@ else:
     st.markdown(
     "<p style='text-align:center; font-size: 14px;'>© 2025 Puskesmas Tanah Sareal</p>",
     unsafe_allow_html=True
+
 )
